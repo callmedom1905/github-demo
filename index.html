@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiệm Xinh Xẻo</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/main_index.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    
+    <!-- header -->
+    <div class="wrapper_header">
+        <header>
+            <div class="logo_web">
+                <a href="index.html"><img src="hinh/logo-mot-tiem-xinh-xeo.png" alt="" ></a>
+            </div>
+            <div class="text">
+                <h1>Tiệm xinh xẻo</h1>
+                <h5>HANDMADE * DECOR * CLOTHS BY HAND</h5>
+            </div>
+            <div class="cart_login">
+                <a href="cart.html"><img src="hinh/giohang.png" alt=""></a>
+                <a href="dangnhap.html"><img src="hinh/logo account.png" alt=""></a>
+            </div>
+        </header>
+    </div>
+    <div class="wrapper_nav">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="products.html">Sản phẩm</a>
+                    <!-- <ul class="sub">
+                        <li><a href="">Thủ công tự làm</a></li>
+                        <li><a href="">Trang trí nhà cửa</a></li>
+                        <li><a href="">Phụ kiện làm danh thiếp Handmade</a></li>
+                        <li><a href="">May mặc</a></li>
+                        <li><a href="">Quà lưu niệm</a></li>
+                        <li><a href="">Phụ kiện xinh</a></li>
+                    </ul> -->
+                </li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Thông tin</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="background">
+        <img src="hinh/background.png" alt="">
+    </div>
+    <!-- main index -->
+    <!-- danh mục sản phẩm -->
+    <div class="products_list">
+        <div class="title">
+            <h3>Danh mục sản phẩm</h3>
+        </div>
+        <ul class="category">
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/thu-cong-tu-lam.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">thủ công tự làm</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/trang-tri-nha-cua.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">trang trí nhà của</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/phu-kien-lam-thiep.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">phụ kiện làm thiệp handmade</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/may-mac.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">may mặc</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/qua-luu-niem.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">quà lưu niệm</a>
+
+                    </div>
+                </div>
+            </li>             
+            <li>
+                <div class="item">
+                    <div class="top">
+                        <a href="" class="thumb">
+                            <img src="hinh/phu-kien-xinh.jpeg" alt="">
+                        </a>
+                        <!-- thông tin sản phẩm -->
+                        <a href="" class="info">phụ kiện xinh</a>
+
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+        <hr>
+        <!-- sản phẩm -->
+        <div class="title">
+            <h3>Sản phẩm</h3>
+        </div>
+        <div class="wrapper_product">
+            <ul class="products_list">
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/ao-canh-buom.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">áo len cánh bướm</a>
+                            <div class="price">200.000</div>
+                            <input type="hidden" value="10">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="200000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" id="test" onclick="dichuyen(this)"><img src="hinh/cay-thong-handmade.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">cây thông handmade</a>
+                            <div class="price">90.000đ</div>
+                            <input type="hidden" value="9">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="90000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/do-em-be.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">đồ len em bé</a>
+                            <div class="price">500.000đ</div>
+                            <input type="hidden" value="12">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="500000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/hoa-handmade.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">hoa móc len</a>
+                            <div class="price">150.000đ</div>
+                            <input type="hidden" value="13">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="150000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/khan-bandana.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">khăn bandana len</a>
+                            <div class="price">100.000đ</div>
+                            <input type="hidden" value="11">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="100000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/moc-khoa-bach-tuot.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">móc khóa bạch tuột</a>
+                            <div class="price">70.000đ</div>
+                            <input type="hidden" value="7">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="70.000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/moc-khoa-gau.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">móc khóa len gấu</a>
+                            <div class="price">80.000đ</div>
+                            <input type="hidden" value="8">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="80000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" id="test" onclick="dichuyen(this)"><img src="hinh/moc-khoa-muc.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">móc khóa len mực</a>
+                            <div class="price">80.000đ</div>
+                            <input type="hidden" value="6">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="80000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                
+                
+            </ul>
+        </div>
+
+        <hr>
+        <!-- các thiết kế nổi bật -->
+        <div class="title">
+            <h3>Các thiết kế nổi bật</h3>
+        </div>
+        <div class="wrapper_product">
+            <ul class="products_list">
+                <li id="sp" class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/non-len.png" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="" class="name">nón len caro</a>
+                            <div class="price">200.000đ</div>
+                            <input type="hidden" value="2">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="200000"> <!-- tạo giá cho từng id-->
+                        </div>  
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/non-len0.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">nón len trắng</a>
+                            <div class="price">180.000đ</div>
+                            <input type="hidden" value="14">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="180000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/non-meo.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">nón mèo</a>
+                            <div class="price">250.000đ</div>
+                            <input type="hidden" value="3">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="250000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="wrapper_product">
+            <ul class="products_list">
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/quai-deo-ly.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">quai đeo ly</a>
+                            <div class="price">80.000đ</div>
+                            <input type="hidden" value="5">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="80000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/lot-ly.jpg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">lót ly cừu</a>
+                            <div class="price">70.000đ</div>
+                            <input type="hidden" value="15">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="70000"> <!-- tạo giá cho từng id-->
+                        </div>
+                    </div>
+                </li>
+                <li id="sp1" class="product">
+                    <div class="item">
+                        <div class="photo">
+                            <a href="detail.html" onclick="dichuyen(this)"><img src="hinh/tui-len.jpeg" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <a href="detail.html" class="name">túi len</a>
+                            <div class="price">200.000đ</div>
+                            <input type="hidden" value="1">  <!-- taọ id cho từng sp-->
+                            <input type="hidden" value="200000"> <!-- tạo giá cho từng id-->
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="wrapper_footer">
+        <footer>
+            <ul class="footer_info">
+                <li class="logo">
+                    <a href="index.html" class="logo"><img src="hinh/logo-mot-tiem-xinh-xeo.png" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="hinh/logo fb.JPG" alt=""></a>
+                    <a href=""><p>facebook</p></a>
+                </li>
+                <li>
+                    <a href=""><img src="hinh/logo ig.JPG" alt=""></a>
+                    <a href=""><p>instagram</p></a>
+                </li>
+                <li>
+                    <a href=""><img src="hinh/logo map.JPG" alt=""></a>
+                    <a href=""><p>address</p></a>
+                </li>
+                <li>
+                    <a href=""><img src="hinh/logo phone.JPG" alt=""></a>
+                    <a href=""><p>phone</p></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+<script src="js/index.js"></script>
+</html>
